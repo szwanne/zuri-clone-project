@@ -87,5 +87,7 @@ input {
 
 span {
     border: 1px solid lightgrey;
-    display: flex;
+    display: inline-block;
+    height: 0;
+    width: 100%;
 }
