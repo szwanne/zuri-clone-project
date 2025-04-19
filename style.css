@@ -72,3 +72,20 @@ input {
     height: 4vh;
     border-radius: 10px;
 }
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: lightcoral;
+}
+
+.left-text, .right-text {
+    width: 25%;
+}
+
+span {
+    border: 1px solid lightgrey;
+    display: flex;
+}
