@@ -79,6 +79,7 @@ input {
     margin-top: 20px;
     padding: 50px;
     background-color: lightcoral;
+    height: 190px;
 }
 
 .left-text, .right-text {
