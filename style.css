@@ -61,3 +61,14 @@ ul {
     text-wrap: wrap;
     overflow: hidden;
 }
+
+.enroll-button {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 8.5vw;
+    height: 4vh;
+    border-radius: 10px;
+}
