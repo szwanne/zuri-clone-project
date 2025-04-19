@@ -46,16 +46,18 @@ ul {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
     background-color: aquamarine;
     height: 50vh;
     padding: 50px;
     align-items: center;
+    gap: 50px;
+    justify-content: center;
+
 }
 
 .middle-text {
-    max-width: 300px;
+    max-width: 430px;
     text-wrap: wrap;
     overflow: hidden;
 }
