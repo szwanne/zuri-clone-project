@@ -95,3 +95,22 @@ span {
     width: 90%;
     margin-top: 10px;
 }
+
+.grid_text {
+    padding: 20px;
+    color: red;
+}
+
+.grid_section {
+    display: flex;
+    gap: 200px;
+    background-color: lightskyblue;
+    margin: 10px;
+}
+
+.grid_section h2 {
+    max-width: 28%;
+    line-height: 30px;
+    padding: 20px;
+    vertical-align: middle;
+}
