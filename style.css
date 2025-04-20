@@ -80,6 +80,7 @@ input {
     padding: 50px;
     background-color: lightcoral;
     height: 190px;
+    align-items: center;
 }
 
 .left-text, .right-text {
@@ -88,7 +89,9 @@ input {
 
 span {
     border: 1px solid lightgrey;
-    display: inline-block;
+    display: block;
     height: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10px;
 }
