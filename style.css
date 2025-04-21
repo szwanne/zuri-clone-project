@@ -170,3 +170,30 @@ span {
   margin-top: 10px;
   row-gap: 20px;
 }
+
+.section-2-text {
+  text-align: center;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.section-2-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  row-gap: 40px;
+  padding: 50px;
+}
+
+.item--1,
+.item--2,
+.item--3,
+.item--4,
+.item--5,
+.item--6 {
+  border: 1px solid lightgrey;
+  max-width: 90%;
+  min-height: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+}
