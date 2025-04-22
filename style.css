@@ -238,3 +238,28 @@ table {
   align-items: center;
   padding: 50px;
 }
+
+.section-4-container {
+  display: flex;
+  background-color: aqua;
+  margin-top: 50px;
+  gap: 50px;
+  padding: 50px;
+  justify-self: center;
+}
+
+.right-item,
+.left-item {
+  border: 1px solid lightgrey;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 10px;
+  line-height: 30px;
+}
+
+.section-4-text {
+  text-align: center;
+  margin-top: 20px;
+}
