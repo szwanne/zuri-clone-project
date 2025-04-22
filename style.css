@@ -263,3 +263,25 @@ table {
   text-align: center;
   margin-top: 20px;
 }
+
+.section-5 {
+  background-color: red;
+  color: white;
+  min-height: 40vh;
+  padding: 50px;
+}
+
+.section-5-text {
+  border: 1px solid lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+  min-height: 35vh;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
