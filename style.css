@@ -255,13 +255,20 @@ span {
 
 input.btn-1 {
   width: 12vw;
-  border: 1px solid white;
+  border: 2px solid white;
 }
+
+/* SECTION 2 */
 
 .section-2-text {
   text-align: center;
   padding: 20px;
   line-height: 30px;
+  margin-top: 100px;
+}
+.section-2-text p {
+  color: red;
+  font-size: 25px;
 }
 
 .section-2-grid {
@@ -282,7 +289,10 @@ input.btn-1 {
   max-width: 90%;
   min-height: 20vh;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .section-3-text {
