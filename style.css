@@ -218,26 +218,44 @@ span {
   font-size: 32px;
 }
 
+/* SECTION 1 */
+
 .section-1 {
   background-color: red;
-  min-height: 40vh;
-  padding: 50px;
+  min-height: 50vh;
+  padding: 80px;
   line-height: 50px;
+  color: white;
+}
+
+.section-text h1 {
+  font-size: 42px;
+}
+
+.btn {
+  background-color: white;
+  color: red;
+  font-size: 16px;
 }
 
 .section-1 .enroll-button {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .section-button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  max-width: 25%;
-  background-color: yellow;
+  max-width: 35%;
   margin-top: 10px;
-  row-gap: 20px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+input.btn-1 {
+  width: 12vw;
+  border: 1px solid white;
 }
 
 .section-2-text {
