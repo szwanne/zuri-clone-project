@@ -58,7 +58,8 @@ ul {
   overflow: hidden;
 }
 
-.middle-text .coloured {
+.middle-text .coloured,
+.section-3 .coloured {
   color: red !important;
 }
 
@@ -295,9 +296,13 @@ input.btn-1 {
   justify-content: space-evenly;
 }
 
+/* SECTION 3 */
+
 .section-3-text {
   text-align: center;
   padding: 20px;
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .section-3-table {
@@ -326,6 +331,12 @@ table {
   margin-left: auto;
   margin-right: auto;
   min-width: 50%;
+  border-collapse: collapse; /* This removed the small gaps between table rows and columns*/
+}
+
+.plus-icon {
+  position: relative;
+  left: 590px;
 }
 
 .section-3-questions {
