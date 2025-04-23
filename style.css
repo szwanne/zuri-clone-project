@@ -285,3 +285,20 @@ table {
   align-items: center;
   justify-content: center;
 }
+
+.footer-container {
+  display: flex;
+  gap: 300px;
+  background-color: lightgreen;
+  padding: 25px;
+}
+
+.left-footer {
+  margin-left: 60px;
+}
+
+.right-footer {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
