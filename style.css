@@ -165,9 +165,23 @@ span {
   gap: 50px;
   padding: 30px;
   row-gap: 80px;
+  margin-bottom: 100px;
 }
 
-.item-1,
+.item-1 {
+  border: 1px solid lightgrey;
+  padding: 30px;
+  min-height: 50vh;
+  min-width: 10vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: red;
+  color: white;
+  transition: transform ease 900ms;
+}
+
 .item-2,
 .item-3,
 .item-4,
@@ -181,6 +195,18 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  box-shadow: 0px 5px 20px 5px #555;
+  transition: transform ease 900ms;
+}
+
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover,
+.item-6:hover {
+  box-shadow: 0px 5px 20px 5px #555;
+  transform: translate(0, -20px);
 }
 
 .number {
