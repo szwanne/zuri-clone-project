@@ -1,3 +1,5 @@
+/*Overall Section*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +13,8 @@ body {
   background-color: #fffdf5;
 }
 
+/* NAVIGATION SECTION */
+
 a {
   text-decoration: none;
 }
@@ -18,20 +22,6 @@ a {
 ul {
   list-style: none; /*removes the bullet points*/
 }
-
-/* .nav-bar {
-    background-color: lightgreen;
-    margin: 10px;
-    padding: 20px;
-    max-width: 70%;
-    position:relative;
-    left: 570px;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-} */
 
 .nav-bar {
   background-color: lightgreen;
@@ -44,6 +34,8 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+
+/* HERO SECTION */
 
 .hero-section {
   display: flex;
@@ -78,12 +70,17 @@ ul {
 .enroll-button {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 input {
-  width: 8.5vw;
-  height: 4vh;
-  border-radius: 10px;
+  width: 8vw;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  border: 0.1px solid rgb(201, 31, 31);
+  font-size: 14px;
 }
 
 .top-footer {
