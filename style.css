@@ -49,14 +49,19 @@ ul {
   display: flex;
   background-color: aquamarine;
   height: 50vh;
-  padding: 50px;
+  padding: 25px;
   align-items: center;
   gap: 50px;
   justify-content: center;
 }
 
+.left-image {
+  display: flex;
+  align-self: flex-end;
+}
+
 .middle-text {
-  max-width: 430px;
+  max-width: 600px;
   text-wrap: wrap;
   overflow: hidden;
 }
