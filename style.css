@@ -339,6 +339,26 @@ table {
   left: 590px;
 }
 
+.plus-icon-1 {
+  position: relative;
+  left: 570px;
+}
+
+.plus-icon-2 {
+  position: relative;
+  left: 618px;
+}
+
+.plus-icon-3 {
+  position: relative;
+  left: 460px;
+}
+
+.plus-icon-4 {
+  position: relative;
+  left: 808px;
+}
+
 .section-3-questions {
   display: flex;
   gap: 20px;
