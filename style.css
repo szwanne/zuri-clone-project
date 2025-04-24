@@ -407,6 +407,8 @@ table {
   margin-top: 20px;
 }
 
+/* SECTION 5 */
+
 .section-5 {
   background-color: red;
   color: white;
@@ -418,7 +420,7 @@ table {
   border: 1px solid lightgrey;
   margin-left: auto;
   margin-right: auto;
-  min-width: 50%;
+  min-width: 30%;
   min-height: 35vh;
   border-radius: 10px;
   text-align: center;
@@ -427,6 +429,11 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.section-5-text input {
+  color: white;
+  background-color: red;
 }
 
 .footer-container {
