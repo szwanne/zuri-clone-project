@@ -305,6 +305,14 @@ input.btn-1 {
   margin-top: 150px;
 }
 
+.section-3-text h2 {
+  font-size: 48px;
+}
+
+.section-3-text p {
+  font-size: 32px;
+}
+
 .section-3-table {
   display: flex;
   flex-direction: column;
@@ -324,39 +332,44 @@ input.btn-1 {
 
 td {
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
-  min-width: 50%;
+  min-width: 60%;
   border-collapse: collapse; /* This removed the small gaps between table rows and columns*/
 }
 
-.plus-icon {
-  position: relative;
-  left: 590px;
+/* Remove the vertical line between the columns */
+.left-col {
+  border-right: none;
 }
 
-.plus-icon-1 {
-  position: relative;
-  left: 570px;
+.right-col {
+  border-left: none;
 }
 
-.plus-icon-2 {
-  position: relative;
-  left: 618px;
+.twitter-button {
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  border: 0.1px solid rgb(201, 31, 31);
 }
 
-.plus-icon-3 {
-  position: relative;
-  left: 460px;
-}
-
-.plus-icon-4 {
-  position: relative;
-  left: 808px;
+.twitter-button i {
+  margin-right: 5px;
 }
 
 .section-3-questions {
