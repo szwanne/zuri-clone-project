@@ -294,6 +294,7 @@ input.btn-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  box-shadow: 0px 1.25px 1.25px 0.8px #555;
 }
 
 /* SECTION 3 */
@@ -407,6 +408,10 @@ table {
   margin-top: 20px;
 }
 
+.section-4-text h4 {
+  font-size: 20px;
+}
+
 /* SECTION 5 */
 
 .section-5 {
@@ -453,4 +458,25 @@ table {
   margin-left: auto;
   display: flex;
   gap: 20px;
+}
+
+/* HOVER EFFECTS */
+
+a:hover {
+  color: #555;
+}
+
+input:hover,
+.twitter-button:hover {
+  color: #555;
+  transform: scale(1.08);
+}
+
+.item--1:hover,
+.item--2:hover,
+.item--3:hover,
+.item--4:hover,
+.item--5:hover,
+.item--6:hover {
+  transform: scale(1.08);
 }
