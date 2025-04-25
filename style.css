@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
   min-height: 100vh;
   min-width: 100vw;
   background-color: #fffdf5;
@@ -24,7 +24,6 @@ ul {
 }
 
 .nav-bar {
-  background-color: lightgreen;
   max-width: 70%;
   margin-left: auto;
   padding: 20px;
@@ -39,7 +38,6 @@ ul {
 
 .hero-section {
   display: flex;
-  background-color: aquamarine;
   height: 50vh;
   padding: 25px;
   align-items: center;
@@ -93,7 +91,6 @@ input {
   justify-content: space-between;
   margin-top: 20px;
   padding: 100px;
-  background-color: lightcoral;
   height: 190px;
   align-items: center;
 }
@@ -139,7 +136,6 @@ span {
 .grid_section {
   display: flex;
   gap: 100px;
-  background-color: lightskyblue;
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 10px;
@@ -160,7 +156,6 @@ span {
 }
 
 .grid__section {
-  background-color: limegreen;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
@@ -383,7 +378,6 @@ table {
 
 .section-4-container {
   display: flex;
-  background-color: aqua;
   margin-top: 50px;
   gap: 50px;
   padding: 50px;
@@ -415,7 +409,6 @@ table {
 /* SECTION 5 */
 
 .section-5 {
-  background-color: red;
   color: white;
   min-height: 40vh;
   padding: 50px;
@@ -434,6 +427,7 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: red;
 }
 
 .section-5-text btn {
@@ -446,7 +440,6 @@ table {
 .footer-container {
   display: flex;
   gap: 300px;
-  background-color: lightgreen;
   padding: 25px;
 }
 
@@ -463,12 +456,12 @@ table {
 /* HOVER EFFECTS */
 
 a:hover {
-  color: #555;
+  color: #000;
 }
 
 input:hover,
 .twitter-button:hover {
-  color: #555;
+  color: #000;
   transform: scale(1.08);
 }
 
