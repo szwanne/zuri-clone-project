@@ -32,6 +32,7 @@ The goal of this project is to:
 ## 📸 Screenshot
 
 - Check the link below:
+  https://drive.google.com/drive/folders/1LejRRzBI85kOMUaAR48CqfM5VxbjUiIP?usp=sharing
 
 ## 🧠 What I Learned
 
