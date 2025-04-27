@@ -105,3 +105,40 @@
 .footer-container {
   font-size: 70%;
 }
+
+@media screen and (max-width: 810px) {
+  .left-text,
+  .right-text {
+    font-size: 80%;
+  }
+
+  .right-text a {
+    font-size: 90%;
+  }
+
+  input,
+  .btn {
+    font-size: 14px;
+    width: 16vw;
+  }
+  .section-button {
+    min-width: auto;
+    gap: 10px;
+  }
+  input.btn-1 {
+    width: auto;
+  }
+
+  .section-2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    row-gap: 20px;
+    padding: 25px;
+  }
+
+  .left-footer p a,
+  .right-footer p a {
+    font-size: 18px;
+  }
+}
