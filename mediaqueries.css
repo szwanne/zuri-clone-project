@@ -141,4 +141,91 @@
   .right-footer p a {
     font-size: 18px;
   }
+
+  .footer-container {
+    gap: 80%;
+  }
+
+  .section-5-text {
+    max-width: 500px;
+  }
+
+  .footer-container {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .nav-bar {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .grid_section h2 {
+    font-size: 28px;
+  }
+
+  .section-button {
+    min-width: auto;
+    gap: 10px;
+  }
+  input.btn-1 {
+    width: 150px;
+  }
+
+  .section-3-text {
+    padding: 14px;
+    margin-bottom: 105px;
+    margin-top: 105px;
+  }
+  .table-1,
+  .table-2,
+  .table-3,
+  .table-4,
+  .table-5,
+  .table-6 {
+    padding: 10px;
+    font-weight: 300;
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .section-4-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    height: auto;
+    max-width: 90%;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .grid_section h2 {
+    font-size: 21px;
+  }
+
+  .section-2-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .item--1,
+  .item--2,
+  .item--3,
+  .item--4,
+  .item--5,
+  .item--6 {
+    max-width: 350px;
+  }
 }
